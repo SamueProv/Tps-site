@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confronto TPS vs Taylorismo/Fordismo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-primary" href="index.html">TPS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="principi.html">Principi</a></li>
+        <li class="nav-item"><a class="nav-link active" href="confronto.html">Confronto</a></li>
+        <li class="nav-item"><a class="nav-link" href="aziende.html">Aziende</a></li>
+        <li class="nav-item"><a class="nav-link" href="risorse.html">Risorse</a></li>
+      </ul>
+    </div>
+    <button id="themeToggle" class="btn btn-outline-light ms-2">🌓</button>
+  </div>
+</nav>
+
+<!-- Confronto -->
+<section class="py-5 bg-secondary bg-opacity-25">
+  <div class="container">
+    <h2 class="mb-4">Confronto con Taylorismo e Fordismo</h2>
+    <div class="table-responsive">
+      <table class="table table-dark table-bordered table-hover align-middle">
+        <thead class="table-primary text-dark">
+          <tr>
+            <th>Dimensione</th>
+            <th>Taylorismo</th>
+            <th>Fordismo</th>
+            <th>TPS / Lean</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Logica</td><td>Efficienza del singolo compito</td><td>Produzione di massa</td><td>Flusso tirato dal cliente</td></tr>
+          <tr><td>Organizzazione</td><td>Divisione netta progettazione-esecuzione</td><td>Catena di montaggio rigida</td><td>Team multifunzionali + Kaizen</td></tr>
+          <tr><td>Qualità</td><td>Controllo a valle</td><td>Ispezione post-processo</td><td>Qualità alla fonte (Jidoka)</td></tr>
+          <tr><td>Scorte</td><td>Buffer</td><td>Grandi lotti</td><td>JIT e riduzione WIP</td></tr>
+          <tr><td>Ruolo persone</td><td>Esecutori</td><td>Operai specializzati</td><td>Operatori risolutori di problemi</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 border-top border-secondary text-center bg-dark">
+  <div class="container">
+    <p class="mb-0">© 2025 Guida introduttiva al TPS — Licenza CC BY 4.0</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
