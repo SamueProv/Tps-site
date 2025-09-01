@@ -1,0 +1,9 @@
+:root.light {
+  --bs-body-bg: #f8f9fa;
+  --bs-body-color: #212529;
+}
+
+body.light {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
